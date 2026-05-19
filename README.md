@@ -30,3 +30,4 @@ admin / krutri@2026
 ## Migrating to a real backend later
 The whole content layer goes through [lib/content.ts](lib/content.ts). Swap the JSON file for a DB call (Supabase, Postgres, etc.) and nothing else has to change.
 # krutrimind
+# krutrimind
