@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100" role="img" aria-label="krutrimind">
+  <defs>
+    <linearGradient id="km-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="55%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="km-grad-soft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <filter id="km-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Mark: hexagonal neural node with integrated K -->
+  <g transform="translate(10,10)" filter="url(#km-glow)">
+    <!-- outer hex -->
+    <path d="M40 2 L74 22 L74 58 L40 78 L6 58 L6 22 Z"
+          fill="none" stroke="url(#km-grad)" stroke-width="3" stroke-linejoin="round"/>
+    <!-- inner connecting nodes -->
+    <circle cx="22" cy="28" r="3.5" fill="url(#km-grad-soft)"/>
+    <circle cx="58" cy="28" r="3.5" fill="url(#km-grad-soft)"/>
+    <circle cx="40" cy="40" r="4.5" fill="url(#km-grad)"/>
+    <circle cx="22" cy="52" r="3.5" fill="url(#km-grad-soft)"/>
+    <circle cx="58" cy="52" r="3.5" fill="url(#km-grad-soft)"/>
+    <!-- connecting lines forming K -->
+    <path d="M22 28 L40 40 L22 52" stroke="url(#km-grad)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M40 40 L58 28" stroke="url(#km-grad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M40 40 L58 52" stroke="url(#km-grad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- vertical stem -->
+    <path d="M22 18 L22 62" stroke="url(#km-grad)" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(108,0)">
+    <text x="0" y="58" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
+          font-size="40" font-weight="700" letter-spacing="-1.2" fill="url(#km-grad)">krutri<tspan fill="#0f172a">mind</tspan></text>
+    <text x="2" y="80" font-family="Inter, ui-sans-serif, system-ui, sans-serif"
+          font-size="11" font-weight="500" letter-spacing="3" fill="#64748b">AI · AUTOMATION · ENGINEERING</text>
+  </g>
+</svg>

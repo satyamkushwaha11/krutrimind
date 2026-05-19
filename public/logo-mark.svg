@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 84" width="84" height="84" role="img" aria-label="krutrimind mark">
+  <defs>
+    <linearGradient id="m-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="55%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="m-grad-soft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(2,2)">
+    <path d="M40 2 L74 22 L74 58 L40 78 L6 58 L6 22 Z"
+          fill="none" stroke="url(#m-grad)" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="22" cy="28" r="3.5" fill="url(#m-grad-soft)"/>
+    <circle cx="58" cy="28" r="3.5" fill="url(#m-grad-soft)"/>
+    <circle cx="40" cy="40" r="4.5" fill="url(#m-grad)"/>
+    <circle cx="22" cy="52" r="3.5" fill="url(#m-grad-soft)"/>
+    <circle cx="58" cy="52" r="3.5" fill="url(#m-grad-soft)"/>
+    <path d="M22 28 L40 40 L22 52" stroke="url(#m-grad)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M40 40 L58 28" stroke="url(#m-grad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M40 40 L58 52" stroke="url(#m-grad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M22 18 L22 62" stroke="url(#m-grad)" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>

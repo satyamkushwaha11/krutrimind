@@ -1,0 +1,284 @@
+{
+  "site": {
+    "company": "krutrimind",
+    "domain": "krutrimind.com",
+    "url": "https://krutrimind.com",
+    "tagline": "Engineering for the age of AI agents.",
+    "description": "krutrimind is a consultancy building web, mobile and software solutions powered by AI agent automation. We design intelligent systems that compound your team's output.",
+    "keywords": [
+      "AI agents",
+      "AI automation",
+      "agentic AI consultancy",
+      "web development",
+      "mobile app development",
+      "software development",
+      "AI integration services",
+      "krutrimind"
+    ],
+    "email": "hello@krutrimind.com",
+    "location": "India · Working globally",
+    "responseTime": "Within 24 hours",
+    "social": {
+      "twitter": "@krutrimind",
+      "linkedin": "https://www.linkedin.com/company/krutrimind",
+      "github": "https://github.com/krutrimind"
+    }
+  },
+  "nav": [
+    { "label": "Services", "href": "#services" },
+    { "label": "Work", "href": "/portfolio" },
+    { "label": "AI Agents", "href": "#agents" },
+    { "label": "Reviews", "href": "#reviews" },
+    { "label": "Academy", "href": "#future" }
+  ],
+  "hero": {
+    "badge": "Now booking Q3 engagements",
+    "titleLine1": "Engineering for the age of",
+    "titleLine2": "AI agents.",
+    "rotatingWords": ["AI agents.", "automation.", "intelligence.", "autonomy.", "compute."],
+    "subtitle": "We build web, mobile and software products fused with AI agent automation — turning workflows into self-driving systems that scale your team's output.",
+    "ctaPrimary": { "label": "Book a discovery call →", "href": "#contact" },
+    "ctaSecondary": { "label": "Explore services", "href": "#services" },
+    "stats": [
+      { "value": "10×", "label": "faster delivery with AI-native workflows" },
+      { "value": "24/7", "label": "autonomous agents handling routine ops" },
+      { "value": "1", "label": "focused team, end-to-end accountability" }
+    ]
+  },
+  "trustedBy": {
+    "label": "Trusted by teams at",
+    "logos": ["Northwind", "Lumen Health", "Atlas SaaS", "Kettle", "Fieldday Co.", "Rivulet", "Helix Labs", "Beacon AI"]
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Build, automate, scale — with one partner.",
+    "description": "From the first line of code to the AI agents that maintain it, we own the full stack so your team can ship.",
+    "items": [
+      {
+        "icon": "web",
+        "title": "Web Development",
+        "description": "Performant, SEO-ready sites and dashboards. Next.js, React, Astro — built for speed and conversion.",
+        "bullets": ["Marketing & SaaS websites", "Admin dashboards & portals", "E-commerce & storefronts"],
+        "featured": false
+      },
+      {
+        "icon": "mobile",
+        "title": "Mobile Apps",
+        "description": "Cross-platform apps that feel native. React Native and Flutter, shipped to App Store & Play Store.",
+        "bullets": ["iOS + Android from one codebase", "Offline-first & real-time sync", "Push, payments, deep links"],
+        "featured": false
+      },
+      {
+        "icon": "code",
+        "title": "Custom Software",
+        "description": "Bespoke platforms, APIs and integrations. Cloud-native architecture on AWS, GCP and Azure.",
+        "bullets": ["SaaS platforms & B2B tools", "APIs, ETL & data pipelines", "Cloud infrastructure & DevOps"],
+        "featured": false
+      },
+      {
+        "icon": "agent",
+        "title": "AI Agent Automation",
+        "description": "Agentic systems that read, decide and act — automating ops, support, sales and internal workflows.",
+        "bullets": ["Custom GPT & Claude agents", "RAG, vector search, knowledge bases", "Workflow orchestration (n8n, LangGraph)"],
+        "featured": true
+      }
+    ]
+  },
+  "agents": {
+    "eyebrow": "AI Agents, productionized",
+    "titleLead": "Stop renting hours. Start owning",
+    "titleAccent": "intelligent systems.",
+    "description": "We design AI agents that integrate with the tools you already use — Slack, Gmail, Notion, your CRM, your codebase — and run quietly in the background, 24/7.",
+    "bullets": [
+      "Replace repetitive manual work",
+      "Connect data across siloed tools",
+      "Human-in-the-loop where it matters",
+      "Observable, auditable, secure by default"
+    ],
+    "cta": { "label": "Scope an automation →", "href": "#contact" },
+    "demo": {
+      "title": "agent · sales-ops",
+      "logs": [
+        { "time": "09:14", "tag": "trigger", "text": "new lead — acme.co" },
+        { "time": "09:14", "tag": "tool", "text": "enrich(linkedin, clearbit)" },
+        { "time": "09:14", "tag": "think", "text": "match ICP score 0.91" },
+        { "time": "09:15", "tag": "tool", "text": "draft_email(template=v3)" },
+        { "time": "09:15", "tag": "human", "text": "awaiting approval…" },
+        { "time": "09:21", "tag": "tool", "text": "send(gmail) ✓" },
+        { "time": "09:21", "tag": "tool", "text": "crm.update(stage=qualified)" },
+        { "time": "09:21", "tag": "done", "text": "cycle 47s · cost $0.018" }
+      ]
+    }
+  },
+  "approach": {
+    "eyebrow": "How we work",
+    "title": "A focused process. No agency theater.",
+    "steps": [
+      { "num": "01", "title": "Discover", "description": "A 60-min call to map your goals, constraints and where AI actually pays off. You leave with a plan, free of charge." },
+      { "num": "02", "title": "Prototype", "description": "In 1–2 weeks we ship a working slice — real data, real users, real decisions you can make from." },
+      { "num": "03", "title": "Build", "description": "Tight 2-week sprints. Weekly demos. One Slack channel. You see progress, not status updates." },
+      { "num": "04", "title": "Operate", "description": "We monitor, iterate and train your team — or run it for you. Agents keep working while you sleep." }
+    ]
+  },
+  "portfolio": {
+    "eyebrow": "Selected work",
+    "title": "Products & systems we've shipped.",
+    "description": "A snapshot of recent engagements — from AI-native SaaS to internal automation that quietly does six-figure work.",
+    "viewAllLabel": "View all work →",
+    "items": [
+      {
+        "slug": "northwind-sales-copilot",
+        "client": "Northwind Logistics",
+        "title": "Sales Copilot · agentic outbound",
+        "summary": "A multi-agent system that researches accounts, drafts outbound, and books meetings — with humans approving the moments that matter.",
+        "tags": ["AI Agents", "RAG", "Next.js", "Postgres"],
+        "metric": "3.4× more qualified meetings",
+        "year": "2026",
+        "gradient": "from-violet-500/30 via-indigo-500/20 to-cyan-500/20"
+      },
+      {
+        "slug": "lumen-ops-dashboard",
+        "client": "Lumen Health",
+        "title": "Clinic ops dashboard",
+        "summary": "Real-time operations dashboard across 28 clinics, replacing 11 spreadsheets and a nightly email digest.",
+        "tags": ["Web App", "Realtime", "Charts", "Auth"],
+        "metric": "11 spreadsheets retired",
+        "year": "2026",
+        "gradient": "from-cyan-500/30 via-sky-500/20 to-indigo-500/20"
+      },
+      {
+        "slug": "kettle-mobile",
+        "client": "Kettle",
+        "title": "Mobile app · subscriptions + community",
+        "summary": "Cross-platform RN app with offline-first sync, push, in-app subs and a creator-led community.",
+        "tags": ["React Native", "iOS", "Android", "Stripe"],
+        "metric": "4.8★ launch rating",
+        "year": "2025",
+        "gradient": "from-fuchsia-500/30 via-violet-500/20 to-cyan-500/20"
+      },
+      {
+        "slug": "atlas-support-agent",
+        "client": "Atlas SaaS",
+        "title": "Support agent · tier-1 deflection",
+        "summary": "An agent that triages, answers, and escalates — wired into Intercom, Linear and your knowledge base.",
+        "tags": ["AI Agents", "Vector DB", "LangGraph"],
+        "metric": "62% of tickets resolved without human",
+        "year": "2025",
+        "gradient": "from-indigo-500/30 via-violet-500/20 to-fuchsia-500/20"
+      },
+      {
+        "slug": "fieldday-ecommerce",
+        "client": "Fieldday Co.",
+        "title": "Headless commerce rebuild",
+        "summary": "Migrated a legacy storefront to a headless Next.js + Shopify stack. INP < 200ms on mobile.",
+        "tags": ["E-commerce", "Next.js", "Shopify", "Edge"],
+        "metric": "+28% conversion in 90 days",
+        "year": "2025",
+        "gradient": "from-amber-500/20 via-rose-500/20 to-violet-500/20"
+      },
+      {
+        "slug": "rivulet-data-platform",
+        "client": "Rivulet",
+        "title": "Data platform & ELT",
+        "summary": "End-to-end data platform — ingestion, warehouse, dbt, semantic layer, and an LLM-powered query agent on top.",
+        "tags": ["Data", "dbt", "Snowflake", "LLM"],
+        "metric": "Hours → seconds for ad-hoc analytics",
+        "year": "2025",
+        "gradient": "from-cyan-500/30 via-teal-500/20 to-indigo-500/20"
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "What teams say",
+    "titleLead": "Trusted by teams shipping",
+    "titleAccent": "real AI products.",
+    "description": "We don't do pilots that die in slides. Here's what working with krutrimind actually looks like.",
+    "items": [
+      {
+        "quote": "krutrimind built our outbound agent in five weeks. It now books more meetings than two of our SDRs combined — and our team finally trusts the data behind it.",
+        "name": "Priya Raghavan",
+        "role": "Head of Growth",
+        "company": "Northwind Logistics",
+        "initials": "PR"
+      },
+      {
+        "quote": "They didn't just hand us a Figma. They embedded with our ops team, found the workflow that actually mattered, and replaced eleven spreadsheets with one tool we love.",
+        "name": "Daniel Okafor",
+        "role": "COO",
+        "company": "Lumen Health",
+        "initials": "DO"
+      },
+      {
+        "quote": "Weekly demos, real shipped code, and zero agency theatre. Best engineering partner we've worked with — and we've tried a few.",
+        "name": "Sarah Chen",
+        "role": "VP Engineering",
+        "company": "Atlas SaaS",
+        "initials": "SC"
+      },
+      {
+        "quote": "The support agent they built handles 62% of our tier-1 tickets. Our CSAT went up, not down. That alone paid for the whole engagement in a quarter.",
+        "name": "Marco Bianchi",
+        "role": "Director of CX",
+        "company": "Atlas SaaS",
+        "initials": "MB"
+      },
+      {
+        "quote": "I was skeptical of yet another AI consultancy. Two sprints in, I was forwarding their Loom updates to our board as 'this is how engineering should feel.'",
+        "name": "Amelia Park",
+        "role": "Founder & CEO",
+        "company": "Kettle",
+        "initials": "AP"
+      },
+      {
+        "quote": "Senior engineers, opinionated in the right ways, and they ship. They taught my team things we still use six months after the project ended.",
+        "name": "Rohan Mehta",
+        "role": "CTO",
+        "company": "Rivulet",
+        "initials": "RM"
+      },
+      {
+        "quote": "They quietly automated half of our finance close. I literally only notice it on the days something exceptional happens — which is exactly the point.",
+        "name": "Elena García",
+        "role": "Head of Finance",
+        "company": "Fieldday Co.",
+        "initials": "EG"
+      },
+      {
+        "quote": "From scoping call to a working prototype in eight business days. The bar they set has rewired what we expect from vendors.",
+        "name": "James Patel",
+        "role": "Product Lead",
+        "company": "Lumen Health",
+        "initials": "JP"
+      }
+    ]
+  },
+  "academy": {
+    "eyebrow": "Coming soon",
+    "titleLead": "krutrimind",
+    "titleAccent": "Academy",
+    "description": "Practical courses and content for software engineers and tech aspirants who want to build with AI — not just talk about it.",
+    "items": [
+      { "tag": "Course", "title": "Building Production AI Agents", "description": "Go from \"ChatGPT wrapper\" to reliable, observable agents running in production." },
+      { "tag": "Course", "title": "AI-Native Full-Stack", "description": "Modern web & app development where AI is a first-class part of the stack." },
+      { "tag": "Content", "title": "Field Notes & Deep Dives", "description": "Real lessons from real projects. No hype, no thread-bro takes." }
+    ],
+    "waitlistPlaceholder": "you@email.com",
+    "waitlistCta": "Join the waitlist"
+  },
+  "contact": {
+    "eyebrow": "Let's talk",
+    "titleLead": "Have a project in mind?",
+    "titleAccent": "We'd love to hear it.",
+    "description": "Tell us about your idea, your stack and your timeline. We reply within one business day.",
+    "topics": ["AI agent automation", "Web development", "Mobile app", "Custom software", "Not sure yet"]
+  },
+  "footer": {
+    "tagline": "Engineering for the age of AI agents.",
+    "links": [
+      { "label": "Services", "href": "#services" },
+      { "label": "Approach", "href": "#approach" },
+      { "label": "Academy", "href": "#future" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  }
+}
